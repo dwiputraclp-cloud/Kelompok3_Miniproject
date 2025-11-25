@@ -1,0 +1,134 @@
+============================================================
+         HASIL ANALISIS HARGA BERAS INDONESIA (2020-2025)
+============================================================
+
+DATA OVERVIEW:
+- Total data BERAS: 3,741 records
+- BERAS MEDIUM: 1,930 records
+- BERAS PREMIUM: 1,811 records
+- Rentang tahun: 2020 - 2025
+
+============================================================
+                    1. HARGA BERAS MEDIUM
+============================================================
+Tahun    Harga/Kg (Rp)    Jumlah Data
+--------------------------------------------
+2020           8,959           390
+2021           8,562           338
+2022           8,854           338
+2023          10,832           340
+2024          12,420           321
+2025          12,347           203
+
+Tren: Harga naik signifikan dari 2021 ke 2024 (+45.1%)
+
+============================================================
+                   2. HARGA BERAS PREMIUM
+============================================================
+Tahun    Harga/Kg (Rp)    Jumlah Data
+--------------------------------------------
+2020          10,198           352
+2021           9,984           318
+2022          10,290           326
+2023          11,991           314
+2024          13,679           304
+2025          13,617           197
+
+Tren: Harga naik signifikan dari 2021 ke 2024 (+37.0%)
+
+============================================================
+           3. TOP 10 KABUPATEN HARGA PREMIUM TERTINGGI
+============================================================
+Analisis periode: 2020-2025
+
+No  Kabupaten                 Harga/Kg (Rp)    Jumlah Data
+------------------------------------------------------------
+1   KOTA SURABAYA                    12,330            5
+2   KABUPATEN BANGKALAN              12,141           67
+3   KABUPATEN BONDOWOSO              11,862           67
+4   KABUPATEN JEMBER                 11,827           67
+5   KABUPATEN NGAWI                  11,811           65
+6   KABUPATEN SIDOARJO               11,804           65
+7   KABUPATEN TUBAN                  11,756           67
+8   KABUPATEN LUMAJANG               11,718           60
+9   KABUPATEN PACITAN                11,713           67
+10  KOTA PROBOLINGGO                 11,692           66
+
+Observasi: 9 dari 10 kabupaten tertinggi berada di Jawa Timur
+
+============================================================
+          4. PERBANDINGAN MEDIUM VS PREMIUM
+============================================================
+Tahun  Medium (Rp)  Premium (Rp)  Selisih (Rp)    %
+------------------------------------------------------------
+2020        8,959       10,198         1,240   13.8%
+2021        8,562        9,984         1,423   16.6%
+2022        8,854       10,290         1,436   16.2%
+2023       10,832       11,991         1,159   10.7%
+2024       12,420       13,679         1,260   10.1%
+2025       12,347       13,617         1,270   10.3%
+
+Gap harga premium-medium menurun dari 16.6% (2021) menjadi 10.3% (2025)
+
+============================================================
+                    5. INSIGHT PENTING
+============================================================
+
+1. TREN HARGA:
+   - 2023 adalah tahun kenaikan harga paling signifikan
+   - Harga puncak terjadi di tahun 2024
+   - Kenaikan medium lebih tajam daripada premium (45.1% vs 37.0%)
+
+2. GAP HARGA:
+   - Selisih harga premium-medium menurun signifikan
+   - Dari 16.6% (2021) menjadi 10.3% (2025)
+   - Indikasikan medium mengejar kualitas premium
+
+3. REGIONAL:
+   - Jawa Timur mendominasi harga premium tertinggi
+   - Surabaya sebagai kota dengan harga termahal
+   - Kemungkinan faktor distribusi dan permintaan urban
+
+4. STABILITAS:
+   - 2025 menunjukkan sedikit penurunan dari puncak 2024
+   - Gap harga cenderung stabil di 10-11% (2023-2025)
+   - Paska pandemi menunjukkan adaptasi harga
+
+============================================================
+                      6. FILE YANG DIHASILKAN
+============================================================
+
+DATA FILES:
+- harga_beras_medium_tahun.csv
+- harga_beras_premium_tahun.csv
+- top10_kabupaten_harga_premium.csv
+- perbandingan_harga_beras.csv
+
+VISUALIZATION FILES:
+- grafik_harga_medium.png
+- grafik_harga_premium.png
+- grafik_top10_kabupaten.png
+- grafik_perbandingan.png
+- grafik_kombinasi.png
+
+============================================================
+                      7. CARA PEMAKAIAN
+============================================================
+
+Cara cepat:
+python main.py
+
+Pilih opsi:
+1. Analisis data saja
+2. Buat visualisasi saja
+3. Analisis + Visualisasi (rekomendasi)
+
+Atau jalankan manual:
+python analisis_data.py     # Untuk data analysis
+python visualisasi_data.py  # Untuk membuat grafik
+
+============================================================
+                         END OF REPORT
+============================================================
+Analisis dibuat: 25 November 2025
+Sumber data: harga_pertanian_fix.xlsx
